@@ -33,7 +33,7 @@ void main(void)
     printf("input \t= %p\n", input);
 
     answer = sum2(input, MAX_SIZE); //함수 sum2()가 반환한 결과를 answer변수에 저장
-    printf("The sum is: %f\n\n", answer);
+    printf("The sum is: %f\n\n", answer); 
 
     printf("--------------------------------------\n");
     printf(" sum3(MAX_SIZE, input) \n"); //인자를 전달하는 순서를 바꿔서 배열의 크기와 배열을 전달
@@ -52,7 +52,7 @@ float sum1(float list[], int n) //함수 sum1()은 배열을 값으로 받음
     int i;
     float tempsum = 0;
     for(i = 0; i < n; i++)
-        tempsum += list[i];
+        tempsum += list[i]; //list 배열의 원소의 값을 모두 더하여 tempsum에 저장하고 반환한다. 이때 input배열의 원소의 합인 4959이 저장
     return tempsum;
 }
 
@@ -64,7 +64,7 @@ float sum2 (float *list, int n) //함수 sum2()는 포인터를 이용하여 배
     int i;
     float tempsum = 0;
     for (i = 0; i < n; i++)
-        tempsum += *(list + i);
+        tempsum += *(list + i); //*(list + i)는 포인터가 가리키는 값을 참조하므로 위와 동일하게 input배열안의 값들이 tempsum에 저장된다.
     return tempsum;
 }
 
