@@ -1,10 +1,9 @@
 /*
- * Binary Search Tree #1
+ * 이진 탐색 트리#1
  *
- * Data Structures
+ * 자료 구조
  *
- * School of Computer Science
- * at Chungbuk National University
+ * 충북대학교 소프트웨어학과
  *
  */
 
