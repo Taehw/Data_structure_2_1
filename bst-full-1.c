@@ -335,7 +335,7 @@ int freeBST(Node* head)
 	// head 해제
 	free(head);
 	return 1;
-} //.
+} //..
 
 
 
