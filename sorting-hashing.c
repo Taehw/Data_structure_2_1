@@ -387,6 +387,7 @@ while(ht[++index] != key)
 }
 return index;  // 키를 찾은 인덱스를 반환합니다.
 }
+//complete
 
 
 
